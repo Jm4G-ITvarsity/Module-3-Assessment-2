@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontAwesome/css/all.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aclonica&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Quisine Bay | Deserts</title>
+</head>
+
+<body class="body-mains-deserts">
+
+
+
+    <div class="mains-header">
+
+        <div class="toggle-btn-back">
+            <a href="index.html"><i class="fas fa-chevron-left"></i></a>
+        </div>
+
+        <div class="mains-header-logo">
+            <img src="PNG/Asset 7.png" id="mains-logo" alt="logo">
+        </div>
+
+        <ul class="mains-header-menu">
+            <li><a href="starters.html" class="header-link">Starters</a></li>
+            <li><a href="mains.html" class="header-link">Mains</a></li>
+            <li><a href="deserts.html" class="header-link">Deserts</a></li>
+            <li><a href="drinks.html" class="header-link">Drinks</a></li>
+        </ul>
+
+        <div class="toggle-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+
+    <div class="dropdown-menu">
+        <ul class="mains-header-menu">
+            <li><a href="starters.html" class="header-link">Starters</a></li>
+            <li><a href="mains.html" class="header-link">Mains</a></li>
+            <li><a href="deserts.html" class="header-link">Deserts</a></li>
+            <li><a href="drinks.html" class="header-link">Drinks</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle-btn')
+        const toggleBtnIcon = document.querySelector('.toggle-btn i')
+        const dropDownMenu = document.querySelector('.dropdown-menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+        }
+    </script>
+
+    <div class="mains primary-font">
+
+        <a href="cheese-cake.html" class="mains-link">
+            <h1>Classic Cheesecake</h1>
+            <p class="secondary-font">Creamy, rich cheesecake with a buttery graham cracker crust, served with a berry
+                compote.</p>
+        </a>
+
+        <a href="molten-choc-cake.html" class="mains-link">
+            <h1>Molten Chocolate Lava Cake</h1>
+            <p class="secondary-font">Warm chocolate cake with a gooey chocolate center, served with a scoop of vanilla
+                ice cream.</p>
+        </a>
+
+        <a href="crème-brûlée.html" class="mains-link">
+            <h1>Crème Brûlée</h1>
+            <p class="secondary-font">Silky vanilla custard topped with a layer of caramelized sugar, perfect for
+                cracking!
+            </p>
+        </a>
+
+        <a href="apple-crumble.html" class="mains-link">
+            <h1>Apple Crumble</h1>
+            <p class="secondary-font">Baked apples topped with a buttery crumble, served warm with a side of custard or
+                ice cream.</p>
+        </a>
+
+    </div>
+
+
+</body>
+
+</html>
